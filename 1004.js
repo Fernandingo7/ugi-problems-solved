@@ -6,4 +6,4 @@ var num2 = Number(lines.shift())
 var PROD = num1*num2
 consule.log(`PROD =${PROD}`)
 
-// It cant not work in the website, but it works in your console (UGI bug) //
+// It can't work in the website test, but it will work in your console (UGI bug) //
