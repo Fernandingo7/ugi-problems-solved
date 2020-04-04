@@ -1,128 +1,49 @@
 // ! Problem 1001 //
 
-var c1 = 'refrigerante'
-var c2 = 'iogurte'
-var c3 = 'computador'
-var c4 = 'detergente'
-var c5 = 'feijoada'
-var c6 = 'carne'
-var c7 = 'frango'
-var c8 = 'sabonete'
+var cd1 = 'Fernando';
+var cd2 = 'Ronaldo';
+var cd3 = 'Cristiano';
+var cd4 = 'Orlando';
+var cd5 = 'Monica';
 
-var produto1 = prompt('Digite o codigo do primeiro produto')
-var produto2 = prompt('Digite o codigo do segundo produto')
-var preço = prompt('Digite o preço do segundo produto')
-var preço2 = preço
-var preço1 = preço
-var quantidade1 = quant1
-var quantidade = quant2
-var quant1 = prompt('Digite a quantidade que voce quer desse primeiro produto')
-var quant2 = prompt('Digite a quantidade que voce quer desse segundo produto')
+var hora = 0;
+var PH = 0;
 
-switch (produto1) {
-  case c1: 
-  console.log(preço);
-  preço1
-  console.log(quant1);
-  quantidade1 ;
-  break;
-  case c2: 
-  console.log(preço)
-  preço1
-  console.log(quant1)
-  quantidade1
-  break;
-  case c3: 
-  console.log(preço)
-  preço1
-  console.log(quant1)
-  quantidade1
-  break;
-  case c4: 
-  console.log(preço)
-  preço1
-  console.log(quant1)
-  quantidade1
-  break;
-  case c5: 
-  console.log(preço)
-  preço1
-  console.log(quant1)
-  quantidade1
-  break;
-  case c6: 
-  console.log(preço)
-  preço1 
-  console.log(quant1)
-  quantidade1
-  break;
-  case c7: 
-  console.log(preço)
-  preço1
-  console.log(quant1)
-  quantidade1
-  break;
-  case c8: 
-  console.log(preço)
-  preço1
-  console.log(quant1)
-  quantidade1
-  break;
+var code = prompt('Qual é o codigo do funcionario?');
 
-}switch (produto2) {
-  case c1: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quantidade
+switch (code) {
+  case 'cd1':
+  console.log('20h'),
+  hora += 20
+  console.log('12PH');
+  PH += 12
   break;
-  case c2: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quantidade
+  case 'cd2':
+  console.log('40h'),
+  hora += 40
+  console.log('13PH')
+  PH += 13
   break;
-  case c3: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quant2
+  case 'cd3': 
+  console.log('10h'),
+  hora += 10
+  console.log('22PH')
+  PH += 22
   break;
-  case c4: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quantidade
+  case 'cd4':
+  console.log('40h'),
+  hora += 40
+  console.log('13PH')
+  PH += 13
   break;
-  case c5: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quantidade
-  break;
-  case c6: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quantidade
-  break;
-  case c7: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quantidade
-  break;
-  case c8: 
-  console.log(preço)
-  preço2
-  console.log(quant2)
-  quantidade
-  break;
+  case 'cd5':
+  console.log('30h'),
+  hora += 30
+  console.log('20PH')
+  PH += 20
 }
-var final1 = (Number.parseInt(preço2) * (Number.parseInt(quantidade)))
-var final2 = (Number.parseInt(preço1) * (Number.parseInt(quantidade1)))
-var final = (Number.parseInt(final1) + (Number.parseInt(final2)))
 
-console.log(`Voce precisa pagar ${final}.`)
+var mensal = hora * PH
+console.log('U$' + mensal+'.00')
 
 // It can't work in the website test, but it will work in your console (UGI bug) //
