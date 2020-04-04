@@ -6,4 +6,4 @@ let soma = n1 + n2;
 
 console.log(`Soma = ${soma}`)
 
-// It cant not work in the website, but it works in your console (UGI bug) //
+// It can't work in the website test, but it will work in your console (UGI bug) //
