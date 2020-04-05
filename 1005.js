@@ -1,4 +1,4 @@
-// ! Problem 1001 //
+// ! Problem 1005 //
 
 var a = prompt('Qual foi a primeira nota do aluno?')
 var b = prompt('Qual foi a segunda nota do aluno?')
