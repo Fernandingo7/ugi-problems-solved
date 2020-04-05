@@ -1,4 +1,4 @@
-// ! Problem 1001 //
+// ! Problem 1008 //
 
 var cd1 = 'Fernando';
 var cd2 = 'Ronaldo';
