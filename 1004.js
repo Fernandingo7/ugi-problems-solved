@@ -1,4 +1,4 @@
-// ! Problem 1001 //
+// ! Problem 1004 //
 
 var num1 = Number(lines.shift())
 var num2 = Number(lines.shift())
