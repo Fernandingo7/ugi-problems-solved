@@ -1,4 +1,4 @@
-// ! Problem 1001 //
+// ! Problem 1007 //
 
 var a = prompt('Digite aqui o valor do produto "a"')
 var b = prompt('Digite aqui o valor do produto "b"')
