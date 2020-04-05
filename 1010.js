@@ -1,4 +1,4 @@
-// ! Problem 1001 //
+// ! Problem 1010 //
 
 var c1 = 'refrigerante'
 var c2 = 'iogurte'
